@@ -2,7 +2,7 @@
 int main()
 {
 	int  sec,h,m,s;
-	printf("Enter the seconds:");
+	printf("Enter the seconds:");//
 	scanf("%d",&sec);
 	h=(int)sec/60/60;
 	sec=(int)sec-(h*60*60);
